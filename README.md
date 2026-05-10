@@ -3,7 +3,6 @@
 > 🎓 **Master's Thesis (Dec 2025)**
 > - **Author:** Soonwoo Kim 
 > - **Supervisor:** Prof. Suhyeon Kim
-> - **Institution:** Department of Data Science, Kyungpook National University
 > - **Link:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
 
 
@@ -123,6 +122,40 @@ Three edge configurations were tested to verify the contribution of the strong+w
 LDA captures probabilistic word structure but lacks semantic depth. BERTopic captures contextual meaning but offers limited interpretability. This work bridges the gap by converting both models' outputs directly into graph components — probability matrices as edges, word embeddings as nodes — and applying DMoN-based clustering to extract topics that benefit from both.
 
 Applied to 1,015 Korean news articles on AI-based English education, the framework identified 120 latent topics, outperforming both baselines across all three evaluation metrics (C<sub>v</sub>, C<sub>w2v</sub>, Modularity).
+
+## References
+[1] R. Kune, P. K. Konugurthi, A. Agarwal, R. R. Chillarige, and R. Buyya, “The Anatomy of Big Data Computing,” Journal of Computer and Information Sciences, pp. 1–12, 2015.
+[2] M. Shah, “Big Data and the Internet of Things,” Research and Technology Center – North America, Robert Bosch LLC, Palo Alto, USA, 2015. arXiv: 1503.07092v1
+[3] U. Sivarajah, M. M. Kamal, Z. Irani, and V. Weerakkody, “Critical Analysis of Big Data Challenges and Analytical Methods,” Journal of Business Research, vol. 70, pp. 263–286, 2017.
+[4] C. Dobre and F. Xhafa, “Intelligent Services for Big Data Science,” Future Generation Computer Systems, vol. 37, pp. 267–281, 2014.
+[5] M. Sadia, A. R. Chowdhury, and A. Chen, “A Case for Computing on Unstructured Data,” arXiv preprint arXiv:2509.14601, 2025.
+[6] M. Gentzkow, B. Kelly, and M. Taddy, “Text as Data,” Journal of Economic Literature, vol. 57, no. 3, pp. 535–574, 2019.
+[7] E. Landhuis, “Information overload: How to manage the research-paper deluge?,” Nature, vol. 535, pp. 457–458, Jul. 2016.
+[8] O. Azeroual, G. Saake, M. Abuosba, and J. Schöpfel, “Text Data Mining and Data Quality Management for Research Information Systems in the Context of Open Data and Open Science,” Proceedings of the International Conference on Open Access (ICOA 2018), pp. 1–17, 2018.
+[9] H. Hassani, C. Beneki, S. Unger, M. T. Mazinani, and M. R. Yeganegi, “Text Mining in Big Data Analytics,” Big Data and Cognitive Computing, vol. 4, no. 1, p. 1, 2020.
+[10] D. M. Blei, “Probabilistic Topic Models,” Communications of the ACM, vol. 55, no. 4, pp. 77–84, Apr. 2012.
+[11] D. M. Blei and J. D. Lafferty, “Topic Models,” in Text Mining: Classification, Clustering, and Applications, A. N. Srivastava and M. Sahami (eds.), Chapman and Hall CRC, pp. 71–94, 2009.
+[12] D. M. Blei, A. Y. Ng, and M. I. Jordan, “Latent Dirichlet Allocation,” Journal of Machine Learning Research, vol. 3, pp. 993–1022, 2003.
+[13] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin, “Attention Is All You Need,” Advances in Neural Information Processing Systems (NeurIPS 2017), pp. 5998–6008, 2017. arXiv:1706.03762
+[14] Devlin, M. Chang, K. Lee, and K. Toutanova, “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,” Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT), pp. 4171–4186, 2019. arXiv:1810.04805
+[15] M. Grootendorst, “BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure,”, 2022. arXiv preprint arXiv:2203.05794
+[16] A. Tsitsulin, J. Palowitch, B. Perozzi, and E. Müller, “Graph Clustering with Graph Neural Networks,” Journal of Machine Learning Research, vol. 24, pp. 1–21, 2023.
+[17] G. Salton and C. Buckley, “Term-weighting approaches in automatic text retrieval,” Information Processing & Management, vol. 24, no. 5, pp. 513–523, 1988.
+[18] T. Joachims, “A probabilistic analysis of the Rocchio algorithm with TFIDF for text categorization,” Proceedings of the International Conference on Machine Learning (ICML), pp. 143–151, 1997.
+[19] L. McInnes, J. Healy, and J.Melville, “UMAP: Uniform manifold approximation and projection for dimension reduction,” arXiv preprint arXiv:1802.03426, 2020.
+[20] L. McInnes, J. Healy, and S. Astels, “hdbscan: Hierarchical density based clustering,” Journal of Open Source Software, vol. 2, no. 11, p. 205, 2017.
+[21] T. N. Kipf and M. Welling, “Semi-Supervised Classification with Graph Convolutional Networks,” Proceedings of the International Conference on Learning Representations (ICLR), pp. 1–14, 2017. arXiv preprint arXiv:1609.02907
+[22] BIG Kinds: https://www.bigkinds.or.kr
+[23] G. K. Zipf, Human Behavior and the Principle of Least Effort: An Introduction to Human Ecology, Addison-Wesley Press, Cambridge, MA, 1949.
+[24] T. Mikolov, K. Chen, G. Corrado, and J. Dean, “Efficient Estimation of Word Representations in Vector Space”, Sep. 2013. arXiv preprint arXiv:1301.3781
+[25] D. O’Callaghan, D. Greene, J. Carthy, and P. Cunningham, “An analysis of the coherence of descriptors in topic modeling”, Expert Systems with Applications, vol. 42, no. 13, pp. 5645–5657, 2015.
+[26] G. Bouma, “Normalized (Pointwise) Mutual Information in Collocation Extraction,” in From Form to Meaning: Processing Texts Automatically — Proceedings of the Biennial
+GSCL Conference 2009, Tübingen: Gunter Narr Verlag, pp. 31–40, 2009.
+[27] M. E. J. Newman, “Modularity and community structure in networks”, Proceedings of the National Academy of Sciences of the United States of America, vol. 103, no. 23, pp. 8577–8582, Jun. 2006.
+[28] Seoul Metropolitan Government, “A pilot service of Metaverse Seoul is launched,” Press Release, Seoul, South Korea, May 10, 2022. [Online]. Available: https://english.seoul.go.kr/a-pilot-service-of-metaverse-seoul-is-launched/
+[29] World Bank, “Teachers are leading an AI revolution in Korean classrooms,” World Bank Blogs, Oct. 30, 2024. [Online]. Available: https://blogs.worldbank.org/en/education/teachers-are-leading-an-ai-revolution-in-korean-classrooms
+[30] Ministry of Education, Republic of Korea, “AI Digital Textbooks for 2025 to Realize Personalized Learning,” Policy Document, Nov. 29, 2024. [Online]. Available: https://english.moe.go.kr/boardCnts/viewRenewal.do?boardID=265&boardSeq=102075&lev=0&searchType=null&statusYN=W&page=1&s=english&m=0201&opType=N
+
 
 <!-- ## Installation
 
