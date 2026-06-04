@@ -108,10 +108,10 @@ The following steps were applied to the extracted keyword vocabulary:
 The number of top words per topic (K) controls graph density. K was varied from 10 to 50 in steps of 10, with the number of topics fixed at 30.
 
 | Top-K | Total Edges | Strong | Weak | Modularity | C<sub>w2v</sub> | C<sub>v</sub> |
-|-------|-------------|--------|------|------------|--------|-----|
+|---|---:|---:|---:|---:|---:|---:|
 | 10 | 3,198 | 1,145 | 2,053 | 0.5843 | 0.5405 | 0.7089 |
 | 20 | 6,529 | 4,561 | 1,968 | 0.4482 | 0.5575 | 0.7160 |
-| **30** | **11,960** | **10,075** | **1,885** | **0.3454** | **0.5621** | **0.7220** |
+| **✅ 30**<br><sub>Best balance</sub> | **11,960** | **10,075** | **1,885** | **0.3454** | **0.5621** | **0.7220** |
 | 40 | 19,113 | 17,300 | 1,813 | 0.2823 | 0.5595 | 0.7268 |
 | 50 | 27,916 | 26,169 | 1,747 | 0.1866 | 0.5500 | 0.7218 |
 
