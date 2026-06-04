@@ -126,7 +126,7 @@ Three edge configurations were tested to verify the contribution of the strong+w
 | Configuration | Total Edges | Strong | Weak | Modularity | C<sub>w2v</sub> | C<sub>v</sub> |
 |---------------|-------------|--------|------|------------|--------|-----|
 | Weak-only | 1,885 | 0 | 1,885 | 0.6437 | 0.5271 | 0.6992 |
-| **Strong+Weak (Proposed)** | **11,960** | **10,075** | **1,885** | **0.3454** | **0.5621** | **0.7220** |
+| **✅ Strong+Weak**<br><sub>Proposed</sub> | **11,960** | **10,075** | **1,885** | **0.3454** | **0.5621** | **0.7220** |
 | Strong-only | 10,075 | 10,075 | 0 | 0.2960 | 0.5696 | 0.7200 |
 
 - **Weak-only**: Highest modularity (clearest cluster boundaries) but lowest semantic coherence — peripheral words lack sufficient semantic binding.
