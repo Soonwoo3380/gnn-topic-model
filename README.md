@@ -6,6 +6,23 @@
 > - **Link:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
 
 
+## What this project does
+
+This project proposes a graph-based topic modeling framework that combines:
+
+- LDA topic-word probability as graph edges
+- BERTopic/SBERT word embeddings as node features
+- GCN + DMoN clustering for topic extraction
+
+The goal is to generate topics that are both semantically coherent and structurally interpretable.
+
+## Key Contributions
+
+- Converted heterogeneous topic modeling outputs into a unified keyword graph
+- Integrated probabilistic and embedding-based word information
+- Applied unsupervised graph neural network clustering for topic discovery
+- Evaluated topic quality using coherence and modularity metrics
+
 ---
 
 ## Motivation
