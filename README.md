@@ -2,7 +2,7 @@
 
 > 🎓 **Master's Thesis (Dec 2025)**
 > - **Author:** Soonwoo Kim 
-> - **Supervisor:** Prof. Suhyeon Kim
+> - **Supervisor:** Prof. [Suhyeon Kim](https://scholar.google.com/citations?hl=ko&user=_qHpoOYAAAAJ)
 > - **Link:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
 
 
