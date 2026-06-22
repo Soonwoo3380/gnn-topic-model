@@ -6,7 +6,7 @@
 > - **Link:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
 
 
-## What this project does 🤔
+## What is this? 🤔
 
 This project proposes a graph-based topic modeling framework that combines:
 
