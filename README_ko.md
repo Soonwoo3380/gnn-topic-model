@@ -4,7 +4,7 @@
 
 # Graph Neural Network-Based Topic Model Integrating Probabilistic and Embedding Information of Words
 
-> 🎓 **석사학위논문 기반 프로젝트 (2025.12)**
+> 🎓 **석사학위논문 (2025.12)**
 >
 > - **Author:** Soonwoo Kim  
 > - **Supervisor:** Prof. [Suhyeon Kim](https://scholar.google.com/citations?hl=ko&user=_qHpoOYAAAAJ)
@@ -14,8 +14,7 @@
 
 ## What is this? 🤔
 
-본 프로젝트는 **확률 기반 토픽 모델링 정보**와 **임베딩 기반 의미 정보**를 하나의 그래프 구조로 통합한  
-**그래프 기반 토픽 모델링 프레임워크**입니다.
+본 프로젝트는 **확률 기반 토픽 모델링 정보**와 **임베딩 기반 의미 정보**를 하나의 그래프 구조로 통합한 **그래프 기반 토픽 모델링 프레임워크**입니다.
 
 구체적으로 다음 세 가지 정보를 결합합니다.
 
