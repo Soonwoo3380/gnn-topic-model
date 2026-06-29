@@ -115,7 +115,8 @@
 
 ### Data Collection
 
-본 연구에서는 한국언론진흥재단에서 운영하는 대규모 뉴스 데이터베이스인 [BIG KINDS](https://www.bigkinds.or.kr)를 통해 뉴스 기사를 수집했습니다.
+본 연구에서는 한국언론진흥재단에서 운영하는 대규모 뉴스 데이터베이스인 
+[BIG KINDS](https://www.bigkinds.or.kr)를 통해 뉴스 기사를 수집했습니다.
 
 | Item | Detail |
 |------|--------|
