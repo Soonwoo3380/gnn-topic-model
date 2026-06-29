@@ -59,11 +59,12 @@ This repository contains the full implementation of a novel topic modeling frame
 - **Weak edges**: Each non-core word connects to its most similar core word via cosine similarity (0 < weight < 1).
 
 ### Stage 3 — DMoN-based Clustering
+
+![Overall Process](figures/4.png)
+
 - Node features = SBERT word embeddings (384-dim)
 - A 3-layer GCN encoder performs message passing over the keyword graph.
 - DMoN's modularity loss + collapse regularization identifies structurally stable topic clusters.
-
-![Overall Process](figures/4.png)
 
 ---
 ## Data
