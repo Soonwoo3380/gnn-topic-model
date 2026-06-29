@@ -103,11 +103,11 @@
 
 ### Stage 3 — DMoN-based Clustering
 
+![Overall Process](figures/4.png)
+
 - Node features = SBERT word embeddings, 384차원
 - 3-layer GCN encoder를 사용하여 keyword graph에서 message passing 수행
 - DMoN의 modularity loss와 collapse regularization을 활용하여 구조적으로 안정적인 토픽 클러스터 추출
-
-![Overall Process](figures/4.png)
 
 ---
 
