@@ -1,3 +1,7 @@
+<p align="right">
+  <a href="./README.md">English</a> | <a href="./README_ko.md">한국어</a>
+</p>
+
 # Graph Neural Network-Based Topic Model Integrating Probabilistic and Embedding Information of Words
 
 > 🎓 **Master's Thesis (Dec 2025)**
