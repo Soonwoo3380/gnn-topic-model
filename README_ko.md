@@ -35,6 +35,22 @@
 - 비지도 그래프 신경망 클러스터링을 활용한 토픽 발견
 - Coherence와 Modularity 지표를 활용하여 토픽 품질 평가
 
+## 기술 스택 🛠
+
+| 구분            | 기술 / 라이브러리                                  | 활용 목적                                            |
+| ------------- | ------------------------------------------- | ------------------------------------------------ |
+| 개발 환경         | Python, Jupyter Notebook                    | 연구 구현 및 실험 관리                                    |
+| 데이터 처리        | Pandas, NumPy, Regular Expressions          | 키워드 전처리, 빈도 필터링, 행렬 데이터 구성                       |
+| 토픽 모델링        | LDA, BERTopic                               | 확률 기반 토픽-단어 분포와 의미 기반 토픽 표현 추출                   |
+| 임베딩 및 표현 학습   | SBERT / SentenceTransformer                 | 단어 단위 의미 임베딩 생성 및 노드 feature 구성                  |
+| 차원 축소 및 클러스터링 | UMAP, HDBSCAN                               | BERTopic 기반 문서 클러스터링 및 토픽 추출                     |
+| 그래프 구성        | NetworkX, cosine similarity                 | 토픽-단어 확률과 임베딩 유사도를 활용한 키워드 그래프 생성                |
+| 그래프 신경망       | PyTorch, PyTorch Geometric, GCNConv         | 키워드 그래프에 대한 GCN 기반 메시지 패싱 구현                     |
+| 그래프 클러스터링     | Custom DMoN-style Clustering, PyTorch       | modularity 기반 비지도 그래프 클러스터링 목적함수를 PyTorch로 직접 구현 |
+| 평가            | Gensim CoherenceModel, Word2Vec, Modularity | 토픽 의미 일관성과 그래프 구조 해석 가능성 평가                      |
+| 실험 관리         | scikit-learn, tqdm, JSON, Pickle            | feature scaling, 유사도 계산, 진행률 확인, 실험 결과 저장        |
+
+
 ---
 
 ## Motivation
