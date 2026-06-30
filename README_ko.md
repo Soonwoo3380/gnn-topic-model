@@ -6,8 +6,8 @@
 
 > 🎓 **석사학위논문 (2025.12)**
 >
-> - **저자:** 김순우
-> - **지도교수:** [김수현](https://scholar.google.com/citations?hl=ko&user=_qHpoOYAAAAJ)
+> - **저자:** 김 순 우
+> - **지도교수:** [김 수 현](https://scholar.google.com/citations?hl=ko&user=_qHpoOYAAAAJ)
 > - **논문:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
 
 ---
