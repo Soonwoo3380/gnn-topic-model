@@ -202,6 +202,7 @@ Applied to 1,015 Korean news articles on AI-based English education, the framewo
 [20] L. McInnes, J. Healy, and S. Astels, “hdbscan: Hierarchical density based clustering,” Journal of Open Source Software, vol. 2, no. 11, p. 205, 2017.
 
 [21] T. N. Kipf and M. Welling, “Semi-Supervised Classification with Graph Convolutional Networks,” Proceedings of the International Conference on Learning Representations (ICLR), pp. 1–14, 2017. arXiv preprint arXiv:1609.02907
+
 [22] BIG Kinds: https://www.bigkinds.or.kr
 
 [23] G. K. Zipf, Human Behavior and the Principle of Least Effort: An Introduction to Human Ecology, Addison-Wesley Press, Cambridge, MA, 1949.
