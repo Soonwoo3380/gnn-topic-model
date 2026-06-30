@@ -27,6 +27,21 @@ The goal is to generate topics that are both semantically coherent and structura
 - Applied unsupervised graph neural network clustering for topic discovery
 - Evaluated topic quality using coherence and modularity metrics
 
+## Tech Stack
+
+| Category                              | Tools / Libraries                           | Purpose                                                                                  |
+| ------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Language & Environment                | Python, Jupyter Notebook                    | Research implementation and experiment management                                        |
+| Data Processing                       | Pandas, NumPy, Regular Expressions          | Keyword preprocessing, frequency filtering, matrix construction                          |
+| Topic Modeling                        | LDA, BERTopic                               | Extraction of probabilistic topic-word distributions and semantic topic representations  |
+| Embedding & Representation            | SBERT / SentenceTransformer                 | Construction of word-level semantic embeddings used as node features                     |
+| Dimensionality Reduction & Clustering | UMAP, HDBSCAN                               | BERTopic-based document clustering and topic extraction                                  |
+| Graph Construction                    | NetworkX, cosine similarity                 | Construction of keyword graphs using topic-word probabilities and embedding similarities |
+| Graph Neural Network                  | PyTorch, PyTorch Geometric, GCNConv         | Implementation of GCN-based message passing over keyword graphs                          |
+| Graph Clustering                      | DMoN, modularity-based optimization         | Unsupervised topic cluster extraction from graph structure                               |
+| Evaluation                            | Gensim CoherenceModel, Word2Vec, Modularity | Evaluation of topic coherence and structural interpretability                            |
+| Experiment Utilities                  | scikit-learn, tqdm, JSON, Pickle            | Feature scaling, similarity calculation, progress tracking, and result saving            |
+
 ---
 
 ## Motivation
