@@ -27,7 +27,7 @@ The goal is to generate topics that are both semantically coherent and structura
 - Applied unsupervised graph neural network clustering for topic discovery
 - Evaluated topic quality using coherence and modularity metrics
 
-## Tech Stack
+## Tech Stack 🛠
 
 | Category                              | Tools / Libraries                           | Purpose                                                                                  |
 | ------------------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
