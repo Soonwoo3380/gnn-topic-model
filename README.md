@@ -38,7 +38,7 @@ The goal is to generate topics that are both semantically coherent and structura
 | Dimensionality Reduction & Clustering | UMAP, HDBSCAN                               | BERTopic-based document clustering and topic extraction                                  |
 | Graph Construction                    | NetworkX, cosine similarity                 | Construction of keyword graphs using topic-word probabilities and embedding similarities |
 | Graph Neural Network                  | PyTorch, PyTorch Geometric, GCNConv         | Implementation of GCN-based message passing over keyword graphs                          |
-| Graph Clustering | Custom DMoN-style Clustering, PyTorch | Manual implementation of a modularity-based unsupervised graph clustering objective |
+| Graph Clustering | Custom DMoN-style Clustering(PyTorch) | Manual implementation of a modularity-based unsupervised graph clustering objective |
 | Evaluation                            | Gensim CoherenceModel, Word2Vec, Modularity | Evaluation of topic coherence and structural interpretability                            |
 | Experiment Utilities                  | scikit-learn, tqdm, JSON, Pickle            | Feature scaling, similarity calculation, progress tracking, and result saving            |
 
