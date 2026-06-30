@@ -2,13 +2,13 @@
   <a href="./README.md">English</a> | <a href="./README_ko.md">한국어</a>
 </p>
 
-# Graph Neural Network-Based Topic Model Integrating Probabilistic and Embedding Information of Words
+# 단어 확률 정보와 임베딩 정보를 결합한 그래프 신경망 기반 토픽 모델
 
 > 🎓 **석사학위논문 (2025.12)**
 >
-> - **Author:** Soonwoo Kim  
-> - **Supervisor:** Prof. [Suhyeon Kim](https://scholar.google.com/citations?hl=ko&user=_qHpoOYAAAAJ)
-> - **Link:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
+> - **저자:** 김순우
+> - **지도교수:** [김수현](https://scholar.google.com/citations?hl=ko&user=_qHpoOYAAAAJ)
+> - **논문:** https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=5196fd2e578fffceffe0bdc3ef48d419
 
 ---
 
@@ -28,7 +28,7 @@
 
 ---
 
-## Key Contributions 💡
+## 주요 기여점들 💡
 
 - 서로 다른 토픽 모델링 결과를 하나의 **통합 키워드 그래프**로 변환
 - LDA의 **확률 기반 단어 관계**와 BERTopic/SBERT의 **임베딩 기반 의미 정보**를 결합
@@ -55,15 +55,15 @@
 
 ## Motivation
 
-이 프로젝트는 다음 질문에서 출발했습니다.
+본 프로젝트는 
 
-> **서로 다른 성격을 가진 데이터를 하나의 분석 구조 안에서 함께 활용할 수 있을까?**
+> **서로 다른 성격을 가진 데이터를 하나의 분석 구조 안에서 함께 활용할 수 있을까?** 에서 출발했습니다.
 
 특정 목적을 위해 구성된 데이터는 그 목적을 해결하는 데 적합한 고유한 특성을 가지고 있습니다.  
-본 연구는 이러한 특성이 서로 다른 데이터 또는 모델 출력 사이에서도 효과적으로 활용될 수 있는지 탐색했습니다.
+본 연구는 이러한 특성이 서로 다른 데이터 간에도 효과적으로 결합되고 활용될 수 있는지에 주목했습니다.
 
-이를 위해 LDA와 BERTopic이 생성하는 서로 다른 정보를 단순히 비교하는 데 그치지 않고,  
-각 모델의 결과를 그래프 구조로 변환하여 하나의 프레임워크 안에서 통합했습니다.
+이러한 질문을 토픽 모델이라는 틀 내에서 구현을 통해 이질적인 정보 간의 관계를 그래프 구조로 재정의하고,  
+각 모델의 결과를 그래프 구조로 변환하여 하나의 프레임워크로 통합했습니다.
 
 ---
 
