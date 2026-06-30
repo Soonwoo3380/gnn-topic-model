@@ -34,11 +34,11 @@ The goal is to generate topics that are both semantically coherent and structura
 | Language & Environment                | Python, Jupyter Notebook                    | Research implementation and experiment management                                        |
 | Data Processing                       | Pandas, NumPy, Regular Expressions          | Keyword preprocessing, frequency filtering, matrix construction                          |
 | Topic Modeling                        | LDA, BERTopic                               | Extraction of probabilistic topic-word distributions and semantic topic representations  |
-| Embedding & Representation            | SBERT / SentenceTransformer                 | Construction of word-level semantic embeddings used as node features                     |
+| Embedding & Representation            | SBERT                                       | Construction of word-level semantic embeddings used as node features                     |
 | Dimensionality Reduction & Clustering | UMAP, HDBSCAN                               | BERTopic-based document clustering and topic extraction                                  |
 | Graph Construction                    | NetworkX, cosine similarity                 | Construction of keyword graphs using topic-word probabilities and embedding similarities |
 | Graph Neural Network                  | PyTorch, PyTorch Geometric, GCNConv         | Implementation of GCN-based message passing over keyword graphs                          |
-| Graph Clustering                      | DMoN, modularity-based optimization         | Unsupervised topic cluster extraction from graph structure                               |
+| Graph Clustering | Custom DMoN-style Clustering, PyTorch | Manual implementation of a modularity-based unsupervised graph clustering objective |
 | Evaluation                            | Gensim CoherenceModel, Word2Vec, Modularity | Evaluation of topic coherence and structural interpretability                            |
 | Experiment Utilities                  | scikit-learn, tqdm, JSON, Pickle            | Feature scaling, similarity calculation, progress tracking, and result saving            |
 
