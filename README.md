@@ -117,6 +117,8 @@ Install the required packages with:
 ```bash
 pip install -r requirements.txt
 
+---
+
 ## How to Run
 Run the notebooks in the following order:
 1. data_arrange.ipynb
