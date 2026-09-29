@@ -55,7 +55,7 @@ This repository contains the full implementation of a novel topic modeling frame
 
 - LDA captures probabilistic co-occurrence structure but lacks semantic similarity.
 - BERTopic captures contextual coherence but lacks interpretability of topic-word relations.
-- Our method fuses probabilistic and embedding informations into a keyword graph and applies DMoN clustering to extract structurally and semantically coherent topics in an end-to-end manner.
+- Our method fuses probabilistic and embedding information into a keyword graph and applies DMoN clustering to extract structurally and semantically coherent topics in an end-to-end manner.
 
 ---
 
