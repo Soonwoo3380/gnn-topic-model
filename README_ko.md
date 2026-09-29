@@ -169,6 +169,35 @@
 | Raw unique words | 27,182 |
 | After preprocessing | **2,597** |
 
+
+---
+
+## 실행 환경
+
+필요한 패키지는 다음 명령어로 설치할 수 있습니다.
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 실행 순서
+
+notebook은 다음 순서로 실행합니다.
+
+1. `data_arrange.ipynb`  
+   데이터 전처리 및 실험 데이터 구성을 수행합니다.
+
+2. Baseline models  
+   - `LDA.ipynb`
+   - `BERTopic.ipynb`
+
+   두 notebook은 동일한 전처리 데이터를 기반으로 하며 서로 독립적으로 실행할 수 있습니다.
+
+3. `GNN_DMoN.ipynb`  
+   확률 정보와 임베딩 정보를 결합한 GNN + DMoN 기반 제안 모델을 학습하고 평가합니다.
+
 ---
 
 ## Key Results
