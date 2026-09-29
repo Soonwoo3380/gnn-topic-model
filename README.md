@@ -51,7 +51,7 @@ This project originated from a fundamental question: **can heterogeneous data of
 
 ## Overview
 
-This repository contains the full implementation of a novel topic modeling framework that integrates **LDA**, **BERTopic**, and a **Deep Modularity Networks (DMoN)** to overcome the limitations of each standalone model.
+This repository contains the full implementation of a novel topic modeling framework that integrates **LDA**, **BERTopic**, and **Deep Modularity Networks (DMoN)** to overcome the limitations of each standalone model.
 
 - LDA captures probabilistic co-occurrence structure but lacks semantic similarity.
 - BERTopic captures contextual coherence but lacks interpretability of topic-word relations.
