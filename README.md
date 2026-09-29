@@ -110,6 +110,26 @@ The following steps were applied to the extracted keyword vocabulary:
 
 ---
 
+## Environment
+
+Install the required packages with:
+
+```bash
+pip install -r requirements.txt
+
+## How to Run
+Run the notebooks in the following order:
+1. data_arrange.ipynb
+   Preprocess the data and construct the experimental dataset.
+2. Baseline models
+   - LDA.ipynb
+   - BERTopic.ipynb
+   These notebooks use the same preprocessed dataset and can be run independently.
+3. GNN_DMoN.ipynb
+   Train and evaluate the proposed GNN + DMoN model that integrates probabilistic and embedding information.
+
+---
+
 ## Key Results
 | Model | C<sub>w2v</sub> | C<sub>v</sub> | Modularity |
 |---|---|---|---|
