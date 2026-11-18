@@ -156,11 +156,11 @@ The number of top words per topic (K) controls graph density. K was varied from 
 
 | Top-K | Total Edges | Strong | Weak | Modularity | C<sub>w2v</sub> | C<sub>v</sub> |
 |-------|-------------|--------|------|------------|--------|-----|
-| 10 | 3,198 | 1,145 | 2,053 | 0.5843 | 0.5405 | 0.7089 |
-| 20 | 6,529 | 4,561 | 1,968 | 0.4482 | 0.5575 | 0.7160 |
-| **✅ 30**<br><sub>Best balance</sub> | **11,960** | **10,075** | **1,885** | **0.3454** | **0.5621** | **0.7220** |
-| 40 | 19,113 | 17,300 | 1,813 | 0.2823 | 0.5595 | 0.7268 |
-| 50 | 27,916 | 26,169 | 1,747 | 0.1866 | 0.5500 | 0.7218 |
+| 10 | 3,198 | 1,145 | 2,053 | 0.5843 | 0.7089 | 0.5405 |
+| 20 | 6,529 | 4,561 | 1,968 | 0.4482 | 0.7160 | 0.5575 |
+| **✅ 30**<br><sub>Best balance</sub> | **11,960** | **10,075** | **1,885** | **0.3454** | **0.7220** | **0.5621** |
+| 40 | 19,113 | 17,300 | 1,813 | 0.2823 | 0.7268 | 0.5595 |
+| 50 | 27,916 | 26,169 | 1,747 | 0.1866 | 0.7218 | 0.5500 |
 
 As K increases, strong edges dominate (35.8% → 93.7%), homogenizing node connectivity and blurring cluster boundaries — modularity drops ~68%. **K=30** achieves the best balance across all three metrics.
 
@@ -172,9 +172,9 @@ Three edge configurations were tested to verify the contribution of the strong+w
 
 | Configuration | Total Edges | Strong | Weak | Modularity | C<sub>w2v</sub> | C<sub>v</sub> |
 |---------------|-------------|--------|------|------------|--------|-----|
-| Weak-only | 1,885 | 0 | 1,885 | 0.6437 | 0.5271 | 0.6992 |
-| **✅ Strong+Weak**<br><sub>Proposed</sub> | **11,960** | **10,075** | **1,885** | **0.3454** | **0.5621** | **0.7220** |
-| Strong-only | 10,075 | 10,075 | 0 | 0.2960 | 0.5696 | 0.7200 |
+| Weak-only | 1,885 | 0 | 1,885 | 0.6437 | 0.6992 | 0.5271 |
+| **✅ Strong+Weak**<br><sub>Proposed</sub> | **11,960** | **10,075** | **1,885** | **0.3454** | **0.7220** | **0.5621** |
+| Strong-only | 10,075 | 10,075 | 0 | 0.2960 | 0.7200 | 0.5696 |
 
 - **Weak-only**: Highest modularity (clearest cluster boundaries) but lowest semantic coherence — peripheral words lack sufficient semantic binding.
 - **Strong-only**: Higher C<sub>v</sub> and C<sub>w2v</sub> but blurred cluster boundaries due to excessive edge density.
