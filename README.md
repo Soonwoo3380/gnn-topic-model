@@ -1,5 +1,5 @@
 <p align="right">
-  <a href="./README.md">English</a> | <a href="./README_ko.md">한국어</a>
+  <a href="./README.en.md">English</a> | <a href="./README.md">한국어</a>
 </p>
 
 # 단어 확률 정보와 임베딩 정보를 결합한 그래프 신경망 기반 토픽 모델
